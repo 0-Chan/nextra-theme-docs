@@ -704,7 +704,7 @@ function Navbar({ flatDirectories, items }) {
       href,
       key: page.route
     }, /* @__PURE__ */ React8.createElement("a", __spreadValues({
-      className: cn3("nextra-nav-link", "no-underline whitespace-nowrap p-2 -ml-2 hidden md:inline-block", !isActive || page.newWindow ? "text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" : "active text-current font-medium underline"),
+      className: cn3("nextra-nav-link", "no-underline whitespace-nowrap p-2 -ml-2 hidden md:inline-block", !isActive || page.newWindow ? "text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200" : "active text-current font-medium border-b-4"),
       "aria-selected": isActive
     }, page.newWindow ? {
       target: "_blank",
