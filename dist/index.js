@@ -689,7 +689,7 @@ function Navbar({ flatDirectories, items }) {
   }, /* @__PURE__ */ React8.createElement(Link3, {
     href: "/"
   }, /* @__PURE__ */ React8.createElement("a", {
-    className: "underline text-current inline-flex items-center hover:opacity-75"
+    className: "no-underline text-current inline-flex items-center hover:opacity-75"
   }, render_component_default(config.logo, { locale })))), /* @__PURE__ */ React8.createElement("div", {
     className: "flex-1"
   }), items ? items.map((page) => {
