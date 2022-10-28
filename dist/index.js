@@ -1890,6 +1890,8 @@ var defaultTheme = {
   searchPlaceholder: ({ locale }) => {
     if (locale === "zh-CN")
       return "\u641C\u7D22\u6587\u6863...";
+    if (locale === "ko")
+      return "\uAC80\uC0C9\uCC3D\uC73C\uB85C \uC774\uB3D9\uD558\uB824\uBA74 / \uD0A4\uB97C \uB204\uB974\uC138\uC694.";
     return "Search documentation...";
   },
   unstable_searchResultEmpty: () => /* @__PURE__ */ React26.createElement("span", {
