@@ -238,7 +238,7 @@ var Search = ({ directories = [] }) => {
     className: "hidden sm:flex absolute inset-y-0 right-0 py-1.5 pr-1.5 select-none pointer-events-none"
   }, /* @__PURE__ */ React4.createElement("kbd", {
     className: "inline-flex items-center px-1.5 font-mono text-sm font-medium bg-white text-gray-400 dark:text-gray-800 dark:border-gray-400 border rounded"
-  }, "\u{1F50E}"))), renderList && /* @__PURE__ */ React4.createElement("ul", {
+  }, "\u24E2"))), renderList && /* @__PURE__ */ React4.createElement("ul", {
     className: "absolute left-0 z-20 w-full p-0 py-2.5 m-0 mt-1 list-none border divide-y rounded shadow-md md:right-0 top-100 md:w-auto"
   }, results.map((res, i) => {
     return /* @__PURE__ */ React4.createElement(Item, {
@@ -1576,6 +1576,7 @@ function File({ item, anchors, topLevel }) {
   }), title)));
 }
 function Menu2({ directories, anchors, submenu }) {
+  directories.reverse();
   return /* @__PURE__ */ React24.createElement("ul", null, directories.map((item) => {
     if (item.children && (item.children.length || !item.withIndexPage)) {
       return /* @__PURE__ */ React24.createElement(Folder, {
